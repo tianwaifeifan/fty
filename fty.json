@@ -2,15 +2,15 @@
   "spider": "./fty.jar;md5;0d0e3817ef4fd3f0526b3d52f60da991",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
-    {
-      "key": "豆豆",
-      "name": "备用公众号【叨观荐影】",
+     {
+      "key": "庐剧",
+      "name": "🇨🇳 天外非凡🎈",
       "type": 3,
-      "api": "csp_DouDou",
-      "indexs": 1,
+      "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0
+      "filterable": 1,
+      "ext": "./lib/Blixq.json"
     },
     {
       "key": "玩偶",
