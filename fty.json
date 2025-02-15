@@ -327,9 +327,17 @@
   "logo": "https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
   "lives": [
     {
-      "name": "饭牛播",
+      "name": "饭太硬",
       "type": 0,
       "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png"
+    },
+    {
+      "name": "摸鱼儿",
+      "type": 0,
+      "url": "http://我不是.摸鱼儿.com/live.php",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.v1.mk/logo/{name}.png"
@@ -341,7 +349,7 @@
       "playerType": 1
     },
     {
-      "name": "平台直播",
+      "name": "自用直播",
       "type": 0,
       "url": "https://slink.ltd/https://raw.githubusercontent.com/tianwaifeifan/22/refs/heads/master/11.txt",
       "ua": "okhttp/3.15",
