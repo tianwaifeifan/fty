@@ -14,17 +14,19 @@
       "ext": "./lib/Blixq.json"
     },
    {
-      "key": "ConfigCenter",
-      "name": "🅿网盘配置中心",
-      "type": 3,
-      "api": "csp_ConfigCenter",
-      "jar": "./spider.jar",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
-      }
-    },
+            "key": "网盘配置",
+            "name": "网盘及彈幕配置",
+            "type": 3,
+            "api": "csp_Config",
+            "jar": "./pg.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "./lib/tokenm.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
     {
       "key": "AliShare",
       "name": "🇨🇳影视分享",
